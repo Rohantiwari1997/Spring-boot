@@ -6,8 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class WelcomeController {
- @GetMapping("/welcome")
+ @GetMapping("/rohan")
 	public String welcome() {
-	 return "This is the application of sprintboot rohan  tiwari acc";
+	 return "This is the profile for rohan  tiwari acc";
  }
+ @GetMapping("/siddharth")
+	public String welcome() {
+	 return "This is the profile for siddharth Sony";
+ }	
 }
