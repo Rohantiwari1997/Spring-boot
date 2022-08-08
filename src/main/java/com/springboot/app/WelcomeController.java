@@ -17,8 +17,5 @@ public class WelcomeController {
  @GetMapping("/naveen")
 	public String naveen() {
 	 return "This is the profile for naveens Sony";
- @GetMapping("")
-	public String () {
-	 return "welcome page";
  }
 }
