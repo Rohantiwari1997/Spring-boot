@@ -18,7 +18,7 @@ public class WelcomeController {
 	public String naveen() {
 	 return "This is the profile for naveens Sony";
  }		
- @GetMapping("/naveen")
+ @GetMapping("/Riya")
 	public String Riya() {
 	 return "This is the profile for Riya Sony";
  }
